@@ -1,0 +1,107 @@
+header,section,footer{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+    
+    
+}
+#contenedor{
+  padding: 5px;
+    width: 960px;
+    height: auto;
+    background-color: rgb(107, 26, 236);
+    box-shadow: 5px 3px #888888;
+}
+form input {
+
+	background-color: #412ee7;
+	float:none;
+	border-radius: 5px;
+	height:auto;
+	width: 30%;
+	margin-bottom: 5px;
+	box-shadow: 5px 5px #0c0c0c;
+	margin-right:40px;
+	margin-left: 80px;
+  margin-top:10px; 
+}
+h2{
+    padding-top: 2px;
+    color: rgb(2, 4, 14);
+    text-decoration: underline;
+    font-family:  	Papyrus ;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#juego {
+    opacity: 0.3;
+    width: 450px;
+    height: 450px;
+    margin-left:69px; 
+    padding:15px; 
+    margin-top: 1px;
+   
+  }
+ #botones{
+     width: 20%;
+     margin-left: 388px;
+     box-shadow: 5px 5px #080808;
+     margin-bottom:5% ;
+     
+     
+ } 
+ #botones  :hover{
+    
+	background-color:#000000;
+	color:#8316e9;
+}
+  table {
+      margin-top: 2px;  
+    width: 100%;
+    height: 100%;
+    margin-left: 170px;
+    background-color: rgb(234, 244, 247);
+  }
+  
+  td {
+    width: 60px;
+    height: 70px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    
+  }
+ 
+  
+  .letra {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  input {
+    width: 90px;
+    height: 30px;
+  }
+  
+  .centrar {
+    margin-left: 210px;
+  }
+  Body{
+  background-color:rgb(240, 241, 245)
+  }
+  h1{
+    color:#0f286d;
+    font-family:  	Papyrus ;
+    font-size: 96px;
+    text-align: center;
+   padding: 2px;
+    font-weight: bold;
+    text-shadow: rgb(0, 9, 15) 6px 6px 6px;
+      
+
+  }
+  

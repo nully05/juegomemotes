@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel='stylesheet' media='screen' href='estilos.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Permanent+Marker&family=Special+Elite&display=swap" rel="stylesheet">    
+    <title>Trabajo final</title>
+</head>
+
+    
+
+<body>
+    <section id="contenedor">
+         
+        <div id="jugamos">
+          
+         <script type="text/javascript">
+            var nombre = prompt(' ¿cuál es tu nombre ?')
+            alert('Juguemos  ' + nombre)
+           
+        </script>
+               
+        </div>
+        <h2><b>Memo Tes</b></h2>
+    <div class="centrar" id="botones">
+        <input type="button" value="Iniciar" onclick="iniciarJuego()" />  
+        <input type="button" value="Reiniciar" onclick="resetearJuego()" /> 
+      </div>
+    <div id="juego">
+      <table>
+        <tr >
+          <td id="0" class="letra" onclick="girarCarta()"  data-valor="valor">?</td>
+          <td id="1" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="2" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="3" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        </tr>
+        <tr>
+          <td id="4" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="5" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="6" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="7" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        </tr>
+        <tr>
+          <td id="8" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="9" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="10" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="11" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        </tr>
+        <tr>
+          <td id="12" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="13" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="14" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="15" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        </tr>
+        </table>
+    </div>
+  
+</section>
+</body>
+<script src='funciones.js'></script>
+</html>
